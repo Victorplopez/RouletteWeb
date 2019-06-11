@@ -7,9 +7,47 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    background-image: url(img/background.JPG);
+    background-size: cover;
+    background-position: center;
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
+
+/*
+Nav Bar
+===========================================
+ */
+
+
+.navBar {
+    background-image: url(img/background.JPG);
+    background-size: cover;
+    background-position: center;
+    padding: 3em;
+}
+
+.navItems{
+    background: #2f4f4f;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.navItems li {
+    display: inline-block;
+    margin: .8em;
+}
+
+.navItem {
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .75em;
+    color: #ffffff;
+}
+
