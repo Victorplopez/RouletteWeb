@@ -10,20 +10,45 @@ body
     background-size: 100%;
 }
 
+@media (max-width: 20rem) {
+    body{
+        margin-right: -1em;
+    }
+}
+
 .navBar
 {
-    background-color: hsla(106, 41%, 25%, .8);
+    background-color: hsla(106, 41%, 25%, .9);
+    height: 5em;
+}
+
+.logo
+{
+    width: 3em;
+    height: 3em;
+    float: left;
+    margin-left: .75em;
+    margin-top: .75em;
+}
+
+.title
+{
+    text-shadow: .03em .03em #f2d57e;
+    font-size: 3rem;
+    color: #000000;
 }
 
 .navItems
 {
+
     list-style-type: none;
 }
 
 .navItems li
 {
+    text-shadow: .03em .03em #000000;
     display: inline;
-    color: #000000;
+    color: #f2d57e;
 }
 
 .welcomeMsg
