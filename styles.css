@@ -1,15 +1,39 @@
-* {
-    box-sizing: border-box;
-    transition: all ease-in-out 250ms;
-}
-
-body {
+*
+{
     margin: 0;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+body
+{
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1517232115160-ff93364542dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80");
+    background-size: 100%;
+}
+
+.navBar
+{
+    background-color: hsla(106, 41%, 25%, .8);
+}
+
+.navItems
+{
+    list-style-type: none;
+}
+
+.navItems li
+{
+    display: inline;
+    color: #000000;
+}
+
+.welcomeMsg
+{
+    background-color: hsla(45, 82%, 72%, 0.3);
+    color: #000000;
+    font-weight: bold;
+}
+
+.americanBoard
+{
+
 }
