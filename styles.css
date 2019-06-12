@@ -8,8 +8,8 @@ body
     text-align: center;
     /*background-image: url("https://images.unsplash.com/photo-1517232115160-ff93364542dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80"); !*poker chip background*!*/
     background-image: url("https://images.unsplash.com/photo-1552749412-02bd58bcff5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-    opacity: 0.5;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 20rem) {
@@ -20,7 +20,7 @@ body
 
 .navBar
 {
-    background-color: hsla(106, 41%, 25%, .9);
+    background-color: hsla(106, 41%, 25%, .8);
     height: 5em;
     border: 0.2em solid;
 }
@@ -40,12 +40,10 @@ body
     font-size: 2.5rem;
     color: #000000;
     font-family: 'Sofia', cursive;
-    /*font-family: 'Pacifico', cursive;*/
 }
 
 .navItems
 {
-
     list-style-type: none;
     font-size: 0.8rem;
 }
@@ -59,11 +57,69 @@ body
 
 .welcomeMsg
 {
-    background-color: hsla(45, 82%, 72%, 0.3);
+    background-color: hsla(45, 82%, 72%, 0.6);
     color: #000000;
+    border-width: 0 .2em .2em .2em;
+    border-style: solid;
+    margin-bottom: 1em;
 }
 
 .americanBoard
 {
-
+    display: inline-block;
+    position: relative;
+    opacity: 100;
 }
+.board{
+    display: inline-block;
+}
+
+.button0
+{
+    display: block;
+    height: 1.5em;
+    width: 4.8em;
+    /*padding: 5px 49px;*/
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #315925;
+    border-radius: 5px;
+    box-shadow: 0 2px #999;
+    position: relative;
+    left: 4em;
+    bottom: 23em;
+    opacity: 100;
+    border: #999999 solid;
+}
+.button00
+{
+    display: block;
+    height: 1.5em;
+    width: 4.8em;
+    /*padding: 5px 49px;*/
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #315925;
+    border-radius: 5px;
+    box-shadow: 0 2px #999;
+    position: relative;
+    left: 8.8em;
+    bottom: 24.5em;
+    opacity: 100;
+    border: #999999 solid;
+}
+.button0:hover {background-color: #00ff1a}
+.button00:hover {background-color: #00ff1a}
+
+
+/*.button:active {*/
+/*    background-color: #3e8e41;*/
+/*    box-shadow: 0 5px #666;*/
+/*    transform: translateY(4px);*/
+/*}*/

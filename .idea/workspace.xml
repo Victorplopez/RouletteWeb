@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a063efc3-8121-42ec-ad86-bce9c350558f" name="Default Changelist" comment="- Added casino background photo">
-      <change afterPath="$PROJECT_DIR$/.idea/RouletteWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2447713b-4e00-46a0-80e3-c425627a219e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -21,30 +18,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+            <state relative-caret-position="224">
+              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles.css">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Victor's_Branch" />
       </map>
     </option>
   </component>
@@ -56,48 +61,53 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/RouletteWeb.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="1053" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="RouletteWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RouletteWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="RouletteWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Viiper\WebstormProjects\RouletteWeb" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="RouletteWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RouletteWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="RouletteWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Viiper\WebstormProjects\RouletteWeb" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Viiper\WebstormProjects\RouletteWeb\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viiper\WebstormProjects\RouletteWeb\img" />
+      <recent name="C:\Users\Viiper\WebstormProjects\RouletteWeb\tableWireframe" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,67 +121,130 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="mPagePreview" type="JavascriptDebugType" uri="file:///$PROJECT_DIR$/index.html">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a063efc3-8121-42ec-ad86-bce9c350558f" name="Default Changelist" comment="" />
-      <created>1560201962888</created>
+      <changelist id="2447713b-4e00-46a0-80e3-c425627a219e" name="Default Changelist" comment="" />
+      <created>1559865265557</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560201962888</updated>
-      <workItem from="1560201965758" duration="5601000" />
-      <workItem from="1560272375158" duration="4373000" />
-      <workItem from="1560283200023" duration="7527000" />
-      <workItem from="1560305403171" duration="1181000" />
+      <updated>1559865265557</updated>
+      <workItem from="1559865266751" duration="3235000" />
+      <workItem from="1560193487777" duration="671000" />
+      <workItem from="1560205175301" duration="6175000" />
+      <workItem from="1560277305060" duration="1816000" />
+      <workItem from="1560285767586" duration="10664000" />
     </task>
-    <task id="LOCAL-00001" summary="- Added colors/made table transparent">
-      <created>1560204337235</created>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1559865983863</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1560204337235</updated>
+      <updated>1559865983863</updated>
     </task>
-    <task id="LOCAL-00002" summary="- Added numbers/letters to board">
-      <created>1560212363171</created>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1559866472376</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1560212363171</updated>
+      <updated>1559866472376</updated>
     </task>
-    <task id="LOCAL-00003" summary="- Added casino background photo">
-      <created>1560285309094</created>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1559868661926</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1560285309094</updated>
+      <updated>1559868661926</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1560211736621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560211736621</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finished both game boards">
+      <created>1560212564838</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560212564838</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Both boards finished">
+      <created>1560212792100</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560212792100</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Playing with layout">
+      <created>1560215615446</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560215615446</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Playing with layout">
+      <created>1560285581932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560285581932</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Playing with layout">
+      <created>1560289309681</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560289309681</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Playing with layout">
+      <created>1560306985274</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560306985274</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18682000" />
+    <option name="totallyTimeSpent" value="22561000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="27" width="960" height="1053" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1814301" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35470086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39727464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32914045" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3300866" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3322851" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32914045" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32829374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -181,15 +254,13 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- Added colors/made table transparent" />
-    <MESSAGE value="- Added numbers/letters to board" />
-    <MESSAGE value="- Added casino background photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added casino background photo" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Finished both game boards" />
+    <MESSAGE value="Both boards finished" />
+    <MESSAGE value="Playing with layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Playing with layout" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/europeanBoardTemplate.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -198,23 +269,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/americanBoardTemplate.png">
+    <entry file="file://$PROJECT_DIR$/img/Logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/americanBoardTemplateColored.png">
+    <entry file="file://$PROJECT_DIR$/img/europeanBoardTemplateColored.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/img/americanBoardTemplateNumbered.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="224">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
