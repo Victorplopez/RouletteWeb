@@ -1,7 +1,7 @@
 let currentDroppable = null;
 const chip1 = document.getElementById("chip1");
 
-
+/*
 chip1.onmousedown = function(event) { // (1) start the process
 
     // (2) prepare to moving: make absolute and on top by z-index
@@ -35,7 +35,10 @@ chip1.onmousedown = function(event) { // (1) start the process
 
 };
 
-/*
+
+ */
+
+
 chip1.onmousedown = function (event) {
 
     let shiftX = event.clientX - chip1.getBoundingClientRect().left;
@@ -95,4 +98,3 @@ chip1.ondragstart = function () {
     return false;
 };
 
- */
