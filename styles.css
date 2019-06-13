@@ -12,6 +12,7 @@ body
     background-position: center;
 }
 
+/*Fixes mobile layout*/
 @media (max-width: 20rem) {
     body{
         margin-right: -1em;
@@ -64,6 +65,11 @@ body
     margin-bottom: 1em;
 }
 
+
+/*
+Board layout and buttons
+================================================================
+ */
 .americanBoard
 {
     display: inline-block;
@@ -74,12 +80,10 @@ body
     display: inline-block;
 }
 
-.button0
+.greenBets button
 {
-    display: block;
     height: 1.5em;
     width: 4.8em;
-    /*padding: 5px 49px;*/
     font-size: 24px;
     text-align: center;
     cursor: pointer;
@@ -88,34 +92,47 @@ body
     background-color: #315925;
     border-radius: 5px;
     box-shadow: 0 2px #999;
-    position: relative;
-    left: 4em;
-    bottom: 23em;
     opacity: 100;
     border: #999999 solid;
+    display: block;
+    position: relative;
+}
+
+.button0
+{
+    left: 4em;
+    bottom: 23em;
 }
 .button00
 {
-    display: block;
-    height: 1.5em;
-    width: 4.8em;
-    /*padding: 5px 49px;*/
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #315925;
-    border-radius: 5px;
-    box-shadow: 0 2px #999;
-    position: relative;
     left: 8.8em;
     bottom: 24.5em;
-    opacity: 100;
-    border: #999999 solid;
 }
-.button0:hover {background-color: #00ff1a}
-.button00:hover {background-color: #00ff1a}
+
+.greenBets button:hover{background-color: #00ff1a}
+
+
+/*
+Chips
+=====================================================================
+ */
+.chip
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.chip1
+{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 
 
 /*.button:active {*/
