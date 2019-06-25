@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2447713b-4e00-46a0-80e3-c425627a219e" name="Default Changelist" comment="">
+    <list default="true" id="2447713b-4e00-46a0-80e3-c425627a219e" name="Default Changelist" comment="Added buttons for all individual bets. &#10;Issue with background. (I think it has to do with how many buttons were created in a Block orientation)">
+      <change afterPath="$PROJECT_DIR$/js/wheel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
@@ -18,20 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="1190">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            <state relative-caret-position="160">
+              <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-end-line="75" />
+              <folding>
+                <element signature="e#1794#1830#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,10 +43,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/wheel.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -77,6 +86,7 @@
       <list>
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/wheel.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles.css" />
       </list>
@@ -89,22 +99,27 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="RouletteWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Viiper\WebstormProjects\RouletteWeb" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="RouletteWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RouletteWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RouletteWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RouletteWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,7 +174,9 @@
       <workItem from="1560277305060" duration="1816000" />
       <workItem from="1560285767586" duration="10977000" />
       <workItem from="1560380028689" duration="8008000" />
-      <workItem from="1560438294487" duration="3758000" />
+      <workItem from="1560438294487" duration="5257000" />
+      <workItem from="1561394473616" duration="1749000" />
+      <workItem from="1561438199894" duration="3308000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1559865983863</created>
@@ -245,11 +262,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560388330294</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added buttons for all individual bets. &#10;Issue with background. (I think it has to do with how many buttons were created in a Block orientation)">
+      <created>1560449604655</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560449604655</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34640000" />
+    <option name="totallyTimeSpent" value="41196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,12 +288,12 @@
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26923078" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27571115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914045" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32914045" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39727464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,6 +302,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3322851" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32914045" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,7 +336,11 @@
     <MESSAGE value="Both boards finished" />
     <MESSAGE value="Playing with layout" />
     <MESSAGE value="Added moveable button. &#10;Cleaned up some of the greenButton html/css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added moveable button. &#10;Cleaned up some of the greenButton html/css" />
+    <MESSAGE value="Added buttons for all individual bets. &#10;Issue with background. (I think it has to do with how many buttons were created in a Block orientation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added buttons for all individual bets. &#10;Issue with background. (I think it has to do with how many buttons were created in a Block orientation)" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RouletteWeb$mPagePreview.dat" NAME="mPagePreview Coverage Results" MODIFIED="1561438685852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -331,24 +360,30 @@
     <entry file="file://$PROJECT_DIR$/img/americanBoardTemplateNumbered.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/js/wheel.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="160">
+          <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-end-line="75" />
+          <folding>
+            <element signature="e#1794#1830#0" />
+          </folding>
         </state>
       </provider>
     </entry>
