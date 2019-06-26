@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2447713b-4e00-46a0-80e3-c425627a219e" name="Default Changelist" comment="Added buttons for all individual bets. &#10;Issue with background. (I think it has to do with how many buttons were created in a Block orientation)">
-      <change afterPath="$PROJECT_DIR$/js/wheel.js" afterDir="false" />
+    <list default="true" id="2447713b-4e00-46a0-80e3-c425627a219e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/moneyTracker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="1377">
+              <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -31,11 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-end-line="75" />
-              <folding>
-                <element signature="e#1794#1830#0" />
-              </folding>
+            <state relative-caret-position="258">
+              <caret line="90" column="18" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -47,6 +43,11 @@
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/moneyTracker.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -68,6 +69,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ball</find>
+      <find>american</find>
     </findStrings>
     <replaceStrings>
       <replace>chip1</replace>
@@ -87,6 +89,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/wheel.js" />
+        <option value="$PROJECT_DIR$/js/moneyTracker.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles.css" />
       </list>
@@ -103,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +123,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +179,8 @@
       <workItem from="1560380028689" duration="8008000" />
       <workItem from="1560438294487" duration="5257000" />
       <workItem from="1561394473616" duration="1749000" />
-      <workItem from="1561438199894" duration="3308000" />
+      <workItem from="1561438199894" duration="3457000" />
+      <workItem from="1561587344974" duration="3517000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1559865983863</created>
@@ -269,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560449604655</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Changed buttons to inline-block so the div isn't as tall.">
+      <created>1561441660013</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561441660014</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41196000" />
+    <option name="totallyTimeSpent" value="44862000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,13 +299,13 @@
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27571115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27564102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914045" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32914045" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39727464" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39727464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914045" />
@@ -302,10 +313,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3322851" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32914045" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32932165" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26923078" />
@@ -337,7 +348,8 @@
     <MESSAGE value="Playing with layout" />
     <MESSAGE value="Added moveable button. &#10;Cleaned up some of the greenButton html/css" />
     <MESSAGE value="Added buttons for all individual bets. &#10;Issue with background. (I think it has to do with how many buttons were created in a Block orientation)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added buttons for all individual bets. &#10;Issue with background. (I think it has to do with how many buttons were created in a Block orientation)" />
+    <MESSAGE value="Changed buttons to inline-block so the div isn't as tall." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed buttons to inline-block so the div isn't as tall." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RouletteWeb$mPagePreview.dat" NAME="mPagePreview Coverage Results" MODIFIED="1561438685852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -370,20 +382,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/moneyTracker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="1377">
+          <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-end-line="75" />
-          <folding>
-            <element signature="e#1794#1830#0" />
-          </folding>
+        <state relative-caret-position="258">
+          <caret line="90" column="18" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="18" />
         </state>
       </provider>
     </entry>

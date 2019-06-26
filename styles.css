@@ -7,7 +7,6 @@ body {
     /*background-image: url("https://images.unsplash.com/photo-1517232115160-ff93364542dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80"); !*poker chip background*!*/
     background-image: url("https://images.unsplash.com/photo-1552749412-02bd58bcff5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -70,7 +69,6 @@ Board layout and buttons
 }
 
 .board {
-    position: relative;
     display: inline-block;
     /*background-color: #999999;*/
 }
@@ -90,18 +88,16 @@ Board layout and buttons
     border-radius: 5px;
     opacity: 100;
     border: #999999 solid;
-    display: inline-block;
-    position: absolute;
+    display: block;
+    position: relative;
 }
-
-.button0 {
-    left: 2em;
-    bottom: 23em;
+.button0{
+    bottom: 23.1em;
+    left: 12.9em;
 }
-
-.button00 {
-    left: 2em;
-    bottom: 23em;
+.button00{
+    bottom: 24.6em;
+    left: 17.7em;
 }
 
 .greenBets button:hover {
@@ -128,8 +124,14 @@ Board layout and buttons
     position: relative;
 }
 
-
-
+.button1 {
+    bottom: 21.53em;
+    left: 12.25em;
+}
+.button3{
+    bottom: 21.53em;
+    left: 15.2em;
+}
 .redBets button:hover {
     background-color: red
 }
@@ -179,6 +181,12 @@ Chips
 .chip1 {
     border-radius: 50%;
     cursor: pointer;
+}
+
+.moneyTracker{
+    position: relative;
+    left: 18em;
+    bottom: 45em;
 }
 
 
