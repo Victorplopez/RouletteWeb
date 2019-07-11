@@ -12,17 +12,11 @@ body
     background-position: center;
 }
 
-/*Fixes mobile layout*/
-@media (max-width: 20rem) {
-    body{
-        margin-right: -1em;
-    }
-}
 
 .navBar
 {
     background-color: hsla(106, 41%, 25%, .8);
-    height: 5em;
+    height: 6em;
     border: 0.2em solid;
 }
 
@@ -38,7 +32,7 @@ body
 .title
 {
     text-shadow: .03em .03em #f2d57e;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #000000;
     font-family: 'Sofia', cursive;
 }
@@ -98,6 +92,12 @@ Board layout and buttons
     position: relative;
 }
 
+.redBets button
+{
+    height: 2.8em;
+
+}
+
 .button0
 {
     left: 4em;
@@ -107,6 +107,12 @@ Board layout and buttons
 {
     left: 8.8em;
     bottom: 24.5em;
+}
+
+.btn-group-vertical {
+    right: 2.05em;
+    bottom: 41.7em;
+    width: 5.5em;
 }
 
 .greenBets button:hover{background-color: #00ff1a}
