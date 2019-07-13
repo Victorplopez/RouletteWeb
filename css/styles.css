@@ -11,8 +11,16 @@ body
     background-size: cover;
     background-position: center;
 }
+.container {
+height: 60em;
+position: relative;
+}
 
-
+.rowCont {
+    position: absolute;
+    /* background-color: #fff; */
+    bottom: 5em;
+}
 .navBar
 {
     background-color: hsla(106, 41%, 25%, .8);
@@ -66,78 +74,43 @@ Board layout and buttons
  */
 .americanBoard
 {
-    display: inline-block;
-    position: relative;
-    opacity: 100;
-}
-.board{
-    display: inline-block;
-}
-
-.greenBets button
-{
-    height: 1.5em;
-    width: 4.8em;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #315925;
-    border-radius: 5px;
-    box-shadow: 0 2px #999;
-    opacity: 100;
-    border: #999999 solid;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
     position: relative;
+    /* z-index: 1; */
 }
 
-.redBets button
-{
-    height: 2.8em;
-
-}
-
-.button0
-{
-    left: 4em;
-    bottom: 23em;
-}
-.button00
-{
-    left: 8.8em;
-    bottom: 24.5em;
-}
-
-.btn-group-vertical {
-    right: 2.05em;
-    bottom: 41.7em;
-    width: 5.5em;
-}
-
-.greenBets button:hover{background-color: #00ff1a}
-
-
-/*
-Chips
-=====================================================================
- */
-.chip
-{
-    background-color: #4CAF50;
-    border: none;
+.btn{
+    width: 5em;
+    height: 2.5em;
+    margin-bottom:.3em;
     color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
 }
-.chip1
-{
-    border-radius: 50%;
-    cursor: pointer;
+.col1 {
+    right: .95em;
+    top: 9.75em;
 }
+
+.col2{
+    right: 1.3em;
+    top: 9.75em;
+}
+
+.col3 {
+    right: 1.65em;
+    top: 9.75em;
+}
+.redBtn{
+    background-color:red;
+}
+
+.blackBtn {
+    background-color:black;
+}
+
+
 
 
 
