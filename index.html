@@ -25,66 +25,81 @@
     <p class="welcomeMsg">Welcome to the RouletteSim website! Here you can test any combination of wagering and bet
         placement strategies.</p>
 
+    <div class="board">
+        <!-- <img class="img-responsive americanBoard" src="img/americanBoardTemplateNumbered.png" alt="Responsive image"> -->
+        <!-- Top two green buttons -->
+        <div class="topButtons">
+            <button type="button" class="btn btn-default btn0 greenBtn">0</button>
+            <button type="button" class="btn btn-default btn00 greenBtn">00</button>
+        </div>
 
-    <div class="container">
-        <img class="img-responsive americanBoard" src="img/americanBoardTemplateNumbered.png" alt="Responsive image">
-        <div class="board">
-            <div class="container rowCont">
-                <div class="row">
-                    <div class="col-xs-1 col-xs-offset-5 col-md-1 col-md-offset-5 col1">
-                        <button type="button" class="btn btn-default btn1 redBtn">1</button>
-                        <button type="button" class="btn btn-default btn4 blackBtn">4</button>
-                        <button type="button" class="btn btn-default btn7 redBtn">7</button>
-                        <button type="button" class="btn btn-default btn10 blackBtn">10</button>
-                        <button type="button" class="btn btn-default btn13 blackBtn">13</button>
-                        <button type="button" class="btn btn-default btn16 redBtn">16</button>
-                        <button type="button" class="btn btn-default btn19 redBtn">19</button>
-                        <button type="button" class="btn btn-default btn22 blackBtn">22</button>
-                        <button type="button" class="btn btn-default btn25 redBtn">25</button>
-                        <button type="button" class="btn btn-default btn28 blackBtn">28</button>
-                        <button type="button" class="btn btn-default btn31 blackBtn">31</button>
-                        <button type="button" class="btn btn-default btn34 redBtn">34</button>
-                        <button type="button" class="btn btn-default btn2to1">2to1</button>
-                    </div>
-                    <div class="col-xs-1 col-xs-offset-5 col-md-1 col2">
-                            <button type="button" class="btn btn-default btn2">2</button>
-                            <button type="button" class="btn btn-default btn5">5</button>
-                            <button type="button" class="btn btn-default btn">8</button>
-                            <button type="button" class="btn btn-default btn11">11</button>
-                            <button type="button" class="btn btn-default btn14">14</button>
-                            <button type="button" class="btn btn-default btn17">17</button>
-                            <button type="button" class="btn btn-default btn20">20</button>
-                            <button type="button" class="btn btn-default btn23">23</button>
-                            <button type="button" class="btn btn-default btn26">26</button>
-                            <button type="button" class="btn btn-default btn29">29</button>
-                            <button type="button" class="btn btn-default btn32">32</button>
-                            <button type="button" class="btn btn-default btn35">35</button>
-                            <button type="button" class="btn btn-default btn5">2to1</button>
-                    </div>
-                    <div class="col-xs-1 col-xs-offset-5 col-md-1 col3">
-                            <button type="button" class="btn btn-default btn3">3</button>
-                            <button type="button" class="btn btn-default btn3">3</button>
-                            <button type="button" class="btn btn-default btn5">5</button>
-                            <button type="button" class="btn btn-default btn1">1</button>
-                            <button type="button" class="btn btn-default btn3">3</button>
-                            <button type="button" class="btn btn-default btn5">5</button>
-                            <button type="button" class="btn btn-default btn1">1</button>
-                            <button type="button" class="btn btn-default btn3">3</button>
-                            <button type="button" class="btn btn-default btn5">5</button>
-                            <button type="button" class="btn btn-default btn1">1</button>
-                            <button type="button" class="btn btn-default btn3">3</button>
-                            <button type="button" class="btn btn-default btn5">5</button>
-                            <button type="button" class="btn btn-default btn5">5</button>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="btn-group redButtons" role="group" aria-label="...">
+        <!-- 9 buttons on the left -->
+        <div class="leftButtons">
+            <button type="button" class="btn btn-default btn1-18 greenBtn">1-18</button>
+            <button type="button" class="btn btn-default btnEven greenBtn">Even</button>
+            <button type="button" class="btn btn-default btnRed redBtn">Red</button>
+            <button type="button" class="btn btn-default btnBlack blackBtn">Black</button>
+            <button type="button" class="btn btn-default btnOdd greenBtn">Odd</button>
+            <button type="button" class="btn btn-default btn19-36 greenBtn">19-36</button>
+            <button type="button" class="btn btn-default btn1-12 greenBtn thirdsBtn">1-12</button>
+            <button type="button" class="btn btn-default btn13-24 greenBtn thirdsBtn">13-24</button>
+            <button type="button" class="btn btn-default btn25-36 greenBtn thirdsBtn">25-36</button>
+        </div>
+        
+        <!-- Individual inside bets -->
+        <div class="flexContainer">
+            <!-- column 1 -->
+            <button type="button" class="btn btn-default btn1 redBtn column1">1</button>
+            <button type="button" class="btn btn-default btn4 blackBtn column1">4</button>
+            <button type="button" class="btn btn-default btn7 redBtn column1">7</button>
+            <button type="button" class="btn btn-default btn10 blackBtn column1">10</button>
+            <button type="button" class="btn btn-default btn13 blackBtn column1">13</button>
+            <button type="button" class="btn btn-default btn16 redBtn column1">16</button>
+            <button type="button" class="btn btn-default btn19 redBtn column1">19</button>
+            <button type="button" class="btn btn-default btn22 blackBtn column1">22</button>
+            <button type="button" class="btn btn-default btn25 redBtn column1">25</button>
+            <button type="button" class="btn btn-default btn28 blackBtn column1">28</button>
+            <button type="button" class="btn btn-default btn31 blackBtn column1">31</button>
+            <button type="button" class="btn btn-default btn34 redBtn column1">34</button>
+            <button type="button" class="btn btn-default btn2to1 greenBtn column1">2to1</button>
+
+            <!-- column 2 -->
+            <button type="button" class="btn btn-default btn2 blackBtn column2">2</button>
+            <button type="button" class="btn btn-default btn5 redBtn column2">5</button>
+            <button type="button" class="btn btn-default btn8 blackBtn column2">8</button>
+            <button type="button" class="btn btn-default btn11 blackBtn column2">11</button>
+            <button type="button" class="btn btn-default btn14 redBtn column2">14</button>
+            <button type="button" class="btn btn-default btn17 blackBtn column2">17</button>
+            <button type="button" class="btn btn-default btn20 blackBtn column2">20</button>
+            <button type="button" class="btn btn-default btn23 redBtn column2">23</button>
+            <button type="button" class="btn btn-default btn26 blackBtn column2">26</button>
+            <button type="button" class="btn btn-default btn29 blackBtn column2">29</button>
+            <button type="button" class="btn btn-default btn32 redBtn column2">32</button>
+            <button type="button" class="btn btn-default btn35 blackBtn column2">35</button>
+            <button type="button" class="btn btn-default btn2to1 greenBtn column2">2to1</button>
+            <!-- column 3  -->
+            <button type="button" class="btn btn-default btn3 redBtn column3">3</button>
+            <button type="button" class="btn btn-default btn6 blackBtn column3">6</button>
+            <button type="button" class="btn btn-default btn9 redBtn column3">9</button>
+            <button type="button" class="btn btn-default btn12 redBtn column3">12</button>
+            <button type="button" class="btn btn-default btn15 blackBtn column3">15</button>
+            <button type="button" class="btn btn-default btn18 redBtn column3">18</button>
+            <button type="button" class="btn btn-default btn21 redBtn column3">21</button>
+            <button type="button" class="btn btn-default btn24 blackBtn column3">24</button>
+            <button type="button" class="btn btn-default btn27 redBtn column3">27</button>
+            <button type="button" class="btn btn-default btn30 redBtn column3">30</button>
+            <button type="button" class="btn btn-default btn33 blackBtn column3">33</button>
+            <button type="button" class="btn btn-default btn36 redBtn column3">36</button>
+            <button type="button" class="btn btn-default btn2to1 greenBtn column3">2to1</button>
+        </div>
+    </div>
+
+    <!-- <div class="btn-group redButtons" role="group" aria-label="...">
                 <button type="button" class="btn btn-default btn1">1</button>
                 <button type="button" class="btn btn-default btn3">3</button>
                 <button type="button" class="btn btn-default btn5">5</button>
-            </div> -->
-        </div>
-    </div>
+         </div> -->
+
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js" type="text/javascript"></script>

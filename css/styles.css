@@ -75,39 +75,71 @@ Board layout and buttons
 .americanBoard
 {
     display: block;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2.5%;
-    position: relative;
-    /* z-index: 1; */
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
+
+.topButtons {
+    display: flex;
+    margin: auto;
+    margin-top: 2em;
+    max-width: 15.9em;
+}
+
+.topButtons button{
+    width: 7.8em;
+}
+
+.leftButtons {
+    display: inline-flex;
+    margin-right: 26.5em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 7.2em;
+    max-height: 31.1em;  
+}
+
+.leftButtons button{
+    height: 5em;
+    width: 3.5em;
+}
+
+.thirdsBtn {
+    height: 10em;
+}
+
+
+
+.flexContainer {
+    display: flex;
+    margin: auto;
+    max-width: 15.9em;
+    max-height: 34em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: -30.6em;
+}
+
 
 .btn{
-    width: 5em;
-    height: 2.5em;
-    margin-bottom:.3em;
+    margin-bottom:.1em;
     color: white;
 }
-.col1 {
-    right: .95em;
-    top: 9.75em;
-}
 
-.col2{
-    right: 1.3em;
-    top: 9.75em;
-}
-
-.col3 {
-    right: 1.65em;
-    top: 9.75em;
-}
-.redBtn{
+.redBtn {
     background-color:red;
 }
 
 .blackBtn {
     background-color:black;
+}
+
+.greenBtn {
+    background-color: green;
 }
 
 
